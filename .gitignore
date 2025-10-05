@@ -1,0 +1,47 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+sysinfo.txt
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio / VSCode
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Build results
+*.apk
+*.aab
+*.exe
+*.app
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata
+
+# Unity3D generated meta files
+*.pidb.meta
+*.booproj.meta
+*.suo.meta
+*.user.meta
+*.userprefs.meta
+*.csproj.meta
+*.sln.meta
+
+# Others
+*.log
