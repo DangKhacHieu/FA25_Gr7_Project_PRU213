@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f97d69f4a6f8d48a7d800d561b7628, type: 3}
+  m_Name: Arcane_archer
+  m_EditorClassIdentifier: 
+  displayName: Arcane archer
+  icon: {fileID: -2800876817223335725, guid: 766870aa145f8bb46acae4ad553e4fff, type: 3}
+  description: Arcane archer
+  cost: 200
+  prefab: {fileID: 5856747300178575472, guid: be7e9d34c778f014abcdd8634c2e4210, type: 3}

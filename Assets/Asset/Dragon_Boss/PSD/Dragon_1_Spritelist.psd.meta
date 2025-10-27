@@ -1,0 +1,3107 @@
+fileFormatVersion: 2
+guid: 1f33190c33e7fbd428b9129d9b1ad8b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8772391102920484823
+    second: Dragon_1_Spritelist_0
+  - first:
+      213: 2319870322208339098
+    second: Dragon_1_Spritelist_1
+  - first:
+      213: 5265647518275664267
+    second: Dragon_1_Spritelist_2
+  - first:
+      213: 3278768731509885178
+    second: Dragon_1_Spritelist_3
+  - first:
+      213: -8958804616462562831
+    second: Dragon_1_Spritelist_4
+  - first:
+      213: 3280212990906671840
+    second: Dragon_1_Spritelist_5
+  - first:
+      213: -63421300187484060
+    second: Dragon_1_Spritelist_6
+  - first:
+      213: 8289609695305229941
+    second: Dragon_1_Spritelist_7
+  - first:
+      213: -8637162527370726616
+    second: Dragon_1_Spritelist_8
+  - first:
+      213: -6306559365836538230
+    second: Dragon_1_Spritelist_9
+  - first:
+      213: 7655820477423233306
+    second: Dragon_1_Spritelist_10
+  - first:
+      213: 4287723372297327166
+    second: Dragon_1_Spritelist_11
+  - first:
+      213: -287597660212809109
+    second: Dragon_1_Spritelist_12
+  - first:
+      213: -1597359470935889847
+    second: Dragon_1_Spritelist_13
+  - first:
+      213: -3992054640983303237
+    second: Dragon_1_Spritelist_14
+  - first:
+      213: -1295350318982250787
+    second: Dragon_1_Spritelist_15
+  - first:
+      213: 318415127251550780
+    second: Dragon_1_Spritelist_16
+  - first:
+      213: -8915581338881984160
+    second: Dragon_1_Spritelist_17
+  - first:
+      213: 4604164504166690010
+    second: Dragon_1_Spritelist_18
+  - first:
+      213: 2325624480124189286
+    second: Dragon_1_Spritelist_19
+  - first:
+      213: 5397887338241348909
+    second: Dragon_1_Spritelist_20
+  - first:
+      213: -244270792539099106
+    second: Dragon_1_Spritelist_21
+  - first:
+      213: 1620428297805955300
+    second: Dragon_1_Spritelist_22
+  - first:
+      213: 8017771968108807451
+    second: Dragon_1_Spritelist_23
+  - first:
+      213: -4523455278073832946
+    second: Dragon_1_Spritelist_24
+  - first:
+      213: 8132296189780123205
+    second: Dragon_1_Spritelist_25
+  - first:
+      213: 7102629735001895497
+    second: Dragon_1_Spritelist_26
+  - first:
+      213: -572986830760661650
+    second: Dragon_1_Spritelist_27
+  - first:
+      213: 1994062394463347363
+    second: Dragon_1_Spritelist_28
+  - first:
+      213: -5750686883584652063
+    second: Dragon_1_Spritelist_29
+  - first:
+      213: -8083328039978087332
+    second: Dragon_1_Spritelist_30
+  - first:
+      213: -7967032268825762026
+    second: Dragon_1_Spritelist_31
+  - first:
+      213: -8264909527439346620
+    second: Dragon_1_Spritelist_32
+  - first:
+      213: 6530983989101613371
+    second: Dragon_1_Spritelist_33
+  - first:
+      213: -5031117913306789093
+    second: Dragon_1_Spritelist_34
+  - first:
+      213: -5305717127971767981
+    second: Dragon_1_Spritelist_35
+  - first:
+      213: -8875140149441932514
+    second: Dragon_1_Spritelist_36
+  - first:
+      213: -53452538194964808
+    second: Dragon_1_Spritelist_37
+  - first:
+      213: -5977070553002928678
+    second: Dragon_1_Spritelist_38
+  - first:
+      213: -5018916911614819219
+    second: Dragon_1_Spritelist_39
+  - first:
+      213: 8366672482207792235
+    second: Dragon_1_Spritelist_40
+  - first:
+      213: 841005310412642896
+    second: Dragon_1_Spritelist_41
+  - first:
+      213: -6479594144312099081
+    second: Dragon_1_Spritelist_42
+  - first:
+      213: 4393455176651224688
+    second: Dragon_1_Spritelist_43
+  - first:
+      213: -3798440413315765666
+    second: Dragon_1_Spritelist_44
+  - first:
+      213: 7918794504350017769
+    second: Dragon_1_Spritelist_45
+  - first:
+      213: -971717312649810835
+    second: Dragon_1_Spritelist_46
+  - first:
+      213: -1243351566907003922
+    second: Dragon_1_Spritelist_47
+  - first:
+      213: 5373191296488994700
+    second: Dragon_1_Spritelist_48
+  - first:
+      213: -243135182774096678
+    second: Dragon_1_Spritelist_49
+  - first:
+      213: -8605595235697544194
+    second: Dragon_1_Spritelist_50
+  - first:
+      213: 1721321382991221751
+    second: Dragon_1_Spritelist_51
+  - first:
+      213: 7870108017280011085
+    second: Dragon_1_Spritelist_52
+  - first:
+      213: 7493725266135068781
+    second: Dragon_1_Spritelist_53
+  - first:
+      213: -397476817778203606
+    second: Dragon_1_Spritelist_54
+  - first:
+      213: 1529942126916674037
+    second: Dragon_1_Spritelist_55
+  - first:
+      213: 5569988967803929741
+    second: Dragon_1_Spritelist_56
+  - first:
+      213: 7100861630073122651
+    second: Dragon_1_Spritelist_57
+  - first:
+      213: -3022710633056453953
+    second: Dragon_1_Spritelist_58
+  - first:
+      213: -7286371531824515986
+    second: Dragon_1_Spritelist_59
+  - first:
+      213: 1529105387115448227
+    second: Dragon_1_Spritelist_60
+  - first:
+      213: -2182454913262055172
+    second: Dragon_1_Spritelist_61
+  - first:
+      213: 7627319057317402569
+    second: Dragon_1_Spritelist_62
+  - first:
+      213: -766794379584692579
+    second: Dragon_1_Spritelist_63
+  - first:
+      213: -5812326086945630150
+    second: Dragon_1_Spritelist_64
+  - first:
+      213: -2279625827677682344
+    second: Dragon_1_Spritelist_65
+  - first:
+      213: 6936853871339470804
+    second: Dragon_1_Spritelist_66
+  - first:
+      213: -713396531169352072
+    second: Dragon_1_Spritelist_67
+  - first:
+      213: 2306802775611137868
+    second: Dragon_1_Spritelist_68
+  - first:
+      213: 4910547814941319301
+    second: Dragon_1_Spritelist_69
+  - first:
+      213: -6123242133629278786
+    second: Dragon_1_Spritelist_70
+  - first:
+      213: 7665499362895372692
+    second: Dragon_1_Spritelist_71
+  - first:
+      213: 5322622273863726929
+    second: Dragon_1_Spritelist_72
+  - first:
+      213: -7529130077006260599
+    second: Dragon_1_Spritelist_73
+  - first:
+      213: 8492341173553736193
+    second: Dragon_1_Spritelist_74
+  - first:
+      213: -873285975920078871
+    second: Dragon_1_Spritelist_75
+  - first:
+      213: -5561493230217310235
+    second: Dragon_1_Spritelist_76
+  - first:
+      213: -5899271544213150852
+    second: Dragon_1_Spritelist_77
+  - first:
+      213: 606380144368890986
+    second: Dragon_1_Spritelist_78
+  - first:
+      213: 336510765989321077
+    second: Dragon_1_Spritelist_79
+  - first:
+      213: 882819274057611562
+    second: Dragon_1_Spritelist_80
+  - first:
+      213: -1350144490010600514
+    second: Dragon_1_Spritelist_81
+  - first:
+      213: -1580349192969079793
+    second: Dragon_1_Spritelist_82
+  - first:
+      213: 4552000759131699663
+    second: Dragon_1_Spritelist_83
+  - first:
+      213: 3296261539308984085
+    second: Dragon_1_Spritelist_84
+  - first:
+      213: 5662112619559622043
+    second: Dragon_1_Spritelist_85
+  - first:
+      213: -3401880310143025009
+    second: Dragon_1_Spritelist_86
+  - first:
+      213: -4926155620513528391
+    second: Dragon_1_Spritelist_87
+  - first:
+      213: -736342833839337012
+    second: Dragon_1_Spritelist_88
+  - first:
+      213: -4568049101055151117
+    second: Dragon_1_Spritelist_89
+  - first:
+      213: -9030925785083311621
+    second: Dragon_1_Spritelist_90
+  - first:
+      213: 7351996146121660769
+    second: Dragon_1_Spritelist_91
+  - first:
+      213: -6359938303075579375
+    second: Dragon_1_Spritelist_92
+  - first:
+      213: -5334617301393065236
+    second: Dragon_1_Spritelist_93
+  - first:
+      213: -6680592265234757705
+    second: Dragon_1_Spritelist_94
+  - first:
+      213: -1112988070291060059
+    second: Dragon_1_Spritelist_95
+  - first:
+      213: -4758431688652990688
+    second: Dragon_1_Spritelist_96
+  - first:
+      213: 6341333269740563237
+    second: Dragon_1_Spritelist_97
+  - first:
+      213: 854488235569011625
+    second: Dragon_1_Spritelist_98
+  - first:
+      213: -1620645008193793327
+    second: Dragon_1_Spritelist_99
+  - first:
+      213: 6998945708073843467
+    second: Dragon_1_Spritelist_100
+  - first:
+      213: -6512542171377885693
+    second: Dragon_1_Spritelist_101
+  - first:
+      213: 1511323132277260804
+    second: Dragon_1_Spritelist_102
+  - first:
+      213: -2628746379587576469
+    second: Dragon_1_Spritelist_103
+  - first:
+      213: 7569764059876717816
+    second: Dragon_1_Spritelist_104
+  - first:
+      213: -4206541687502565422
+    second: Dragon_1_Spritelist_105
+  - first:
+      213: -5201967102616158196
+    second: Dragon_1_Spritelist_106
+  - first:
+      213: 2238372566166388521
+    second: Dragon_1_Spritelist_107
+  - first:
+      213: 8314722255186705288
+    second: Dragon_1_Spritelist_108
+  - first:
+      213: -8384576452820946025
+    second: Dragon_1_Spritelist_109
+  - first:
+      213: -7236832556620833918
+    second: Dragon_1_Spritelist_110
+  - first:
+      213: 5092298957665375579
+    second: Dragon_1_Spritelist_111
+  - first:
+      213: -7467597197256817390
+    second: Dragon_1_Spritelist_112
+  - first:
+      213: -2811241937158851039
+    second: Dragon_1_Spritelist_113
+  - first:
+      213: 892086765729565178
+    second: Dragon_1_Spritelist_114
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d76f50ea3bcdb970800000000000000
+      internalID: 8772391102920484823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f23054c5d13020800000000000000
+      internalID: 2319870322208339098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89fc3fe486531940800000000000000
+      internalID: 5265647518275664267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af80e462ac6808d20800000000000000
+      internalID: 3278768731509885178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f98e97caaeeba380800000000000000
+      internalID: -8958804616462562831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e22d9ef558a58d20800000000000000
+      internalID: 3280212990906671840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 2303
+        width: 170
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460b12bd9aeae1ff0800000000000000
+      internalID: -63421300187484060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2049
+        width: 209
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5766d4ff81c9a0370800000000000000
+      internalID: 8289609695305229941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2049
+        width: 208
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823b0c86172a22880800000000000000
+      internalID: -8637162527370726616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2049
+        width: 208
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e766c9ba99a78a0800000000000000
+      internalID: -6306559365836538230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 2049
+        width: 210
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1929f47920fe3a60800000000000000
+      internalID: 7655820477423233306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 2049
+        width: 212
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e321ce490bd018b30800000000000000
+      internalID: 4287723372297327166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 2049
+        width: 213
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6238c8a37f320cf0800000000000000
+      internalID: -287597660212809109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 2049
+        width: 213
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948a24c360a05d9e0800000000000000
+      internalID: -1597359470935889847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 2049
+        width: 209
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb9d30747f5998c0800000000000000
+      internalID: -3992054640983303237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2049
+        width: 207
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddebf597fbdf50ee0800000000000000
+      internalID: -1295350318982250787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 2049
+        width: 205
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3280f60fdc3b6400800000000000000
+      internalID: 318415127251550780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 2049
+        width: 208
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06976d1520e754480800000000000000
+      internalID: -8915581338881984160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 2049
+        width: 210
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc615ef83745ef30800000000000000
+      internalID: 4604164504166690010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1791
+        width: 207
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a31ca9427464020800000000000000
+      internalID: 2325624480124189286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1791
+        width: 249
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2554755fe529ea40800000000000000
+      internalID: 5397887338241348909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1791
+        width: 223
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1034b5220d2c9cf0800000000000000
+      internalID: -244270792539099106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1791
+        width: 196
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e007b293faec7610800000000000000
+      internalID: 1620428297805955300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1791
+        width: 193
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15c5310029d44f60800000000000000
+      internalID: 8017771968108807451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1791
+        width: 189
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a1b0114657931c0800000000000000
+      internalID: -4523455278073832946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1794
+        width: 191
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e5b104c48bbd070800000000000000
+      internalID: 8132296189780123205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1535
+        width: 205
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9423ae5dc1c919260800000000000000
+      internalID: 7102629735001895497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1539
+        width: 213
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6da88363875c08f0800000000000000
+      internalID: -572986830760661650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1571
+        width: 229
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2e3f9ce255cab10800000000000000
+      internalID: 1994062394463347363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1603
+        width: 235
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec40717fb47130b0800000000000000
+      internalID: -5750686883584652063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1602
+        width: 240
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cc62699ff32df80800000000000000
+      internalID: -8083328039978087332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1601
+        width: 240
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617e096dc5a6f6190800000000000000
+      internalID: -7967032268825762026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1601
+        width: 240
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4447c3cf2942d4d80800000000000000
+      internalID: -8264909527439346620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1602
+        width: 240
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b315a20e557b2aa50800000000000000
+      internalID: 6530983989101613371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 1603
+        width: 240
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b8e32f9e0ed2ab0800000000000000
+      internalID: -5031117913306789093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 1604
+        width: 240
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359798c026e4e56b0800000000000000
+      internalID: -5305717127971767981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1603
+        width: 237
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13d4bc7e0b25d480800000000000000
+      internalID: -8875140149441932514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 1561
+        width: 204
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8becb802339124ff0800000000000000
+      internalID: -53452538194964808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad510dafffd2d0da0800000000000000
+      internalID: -5977070553002928678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d648ff509a9395ab0800000000000000
+      internalID: -5018916911614819219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1436
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cf7064b446c1470800000000000000
+      internalID: 8366672482207792235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05adc5dbfd9dbab00800000000000000
+      internalID: 841005310412642896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1398
+        width: 19
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe7393c47bd316a0800000000000000
+      internalID: -6479594144312099081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076b5e4a430b8fc30800000000000000
+      internalID: 4393455176651224688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1333
+        width: 32
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a63dfa19a394bc0800000000000000
+      internalID: -3798440413315765666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8291965a535ed60800000000000000
+      internalID: 7918794504350017769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1305
+        width: 38
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c2965a044c382f0800000000000000
+      internalID: -971717312649810835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb2593665abebee0800000000000000
+      internalID: -1243351566907003922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1302
+        width: 51
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8772790409619a40800000000000000
+      internalID: 5373191296488994700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adca956e6d530acf0800000000000000
+      internalID: -243135182774096678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1293
+        width: 66
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3347f3ab8c29880800000000000000
+      internalID: -8605595235697544194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3d9798dac53e710800000000000000
+      internalID: 1721321382991221751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 1286
+        width: 83
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bcde94b8d383d60800000000000000
+      internalID: 7870108017280011085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60b9541d6f0ff760800000000000000
+      internalID: 7493725266135068781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1282
+        width: 95
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24a0eda0f0eb7af0800000000000000
+      internalID: -397476817778203606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 2325
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f126c922427b3510800000000000000
+      internalID: 1529942126916674037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1284
+        width: 102
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d844cc484739c4d40800000000000000
+      internalID: 5569988967803929741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fa5b3d7045b8260800000000000000
+      internalID: 7100861630073122651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 2837
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbabfd9b1bc2d06d0800000000000000
+      internalID: -3022710633056453953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 1441
+        width: 236
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64b41852bb91ea90800000000000000
+      internalID: -7286371531824515986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1282
+        width: 98
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7072f7f39783510800000000000000
+      internalID: 1529105387115448227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 1316
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf095bcc1dc56b1e0800000000000000
+      internalID: -2182454913262055172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1319
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c798f7754ea9d960800000000000000
+      internalID: 7627319057317402569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 1335
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e961d039ccb55f0800000000000000
+      internalID: -766794379584692579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 3003
+        y: 1290
+        width: 35
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a389edc0838765fa0800000000000000
+      internalID: -5812326086945630150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1336
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855477043642d50e0800000000000000
+      internalID: -2279625827677682344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 1323
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df7bfbc7d7a44060800000000000000
+      internalID: 6936853871339470804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 1327
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876a7a772a18916f0800000000000000
+      internalID: -713396531169352072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 1311
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fdf2707e8630020800000000000000
+      internalID: 2306802775611137868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 1282
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580e5227835c52440800000000000000
+      internalID: 4910547814941319301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 1312
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb56257c8bfd50ba0800000000000000
+      internalID: -6123242133629278786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 1313
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491ac579e03516a60800000000000000
+      internalID: 7665499362895372692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1303
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157ba33f1c0cdd940800000000000000
+      internalID: 5322622273863726929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1311
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98615540618238790800000000000000
+      internalID: -7529130077006260599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 1308
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a28119d4bdad570800000000000000
+      internalID: 8492341173553736193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_75
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 1292
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef04f1280771e3f0800000000000000
+      internalID: -873285975920078871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_76
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 1291
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef48288f5b91d2b0800000000000000
+      internalID: -5561493230217310235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_77
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 1301
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73ea9549c3912ea0800000000000000
+      internalID: -5899271544213150852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_78
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 1292
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6435ff478b4a6800800000000000000
+      internalID: 606380144368890986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_79
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 1286
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57953ed32c68ba400800000000000000
+      internalID: 336510765989321077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_80
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 1284
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29721fc377604c00800000000000000
+      internalID: 882819274057611562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_81
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1052
+        width: 218
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb977d5db2534de0800000000000000
+      internalID: -1350144490010600514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_82
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1025
+        width: 177
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04b00438c8711ae0800000000000000
+      internalID: -1580349192969079793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_83
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1021
+        width: 181
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc97a59a294fb2f30800000000000000
+      internalID: 4552000759131699663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_84
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1021
+        width: 173
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5175b49d76caebd20800000000000000
+      internalID: 3296261539308984085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_85
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1021
+        width: 223
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b959b17ad6dd39e40800000000000000
+      internalID: 5662112619559622043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_86
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 767
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f808781c1e71ac0d0800000000000000
+      internalID: -3401880310143025009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_87
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 767
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b54ff22097c2abb0800000000000000
+      internalID: -4926155620513528391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_88
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 767
+        width: 183
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc11a1c081cf7c5f0800000000000000
+      internalID: -736342833839337012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_89
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 779
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3b01f8b870b90c0800000000000000
+      internalID: -4568049101055151117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_90
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 767
+        width: 183
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9813ba8d4bba280800000000000000
+      internalID: -9030925785083311621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1695f97da89870660800000000000000
+      internalID: 7351996146121660769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_92
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 511
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a87cb4fc5fcb7a0800000000000000
+      internalID: -6359938303075579375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_93
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 511
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea30d114d1a7f5b0800000000000000
+      internalID: -5334617301393065236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_94
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 511
+        width: 186
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7c575eab4c943a0800000000000000
+      internalID: -6680592265234757705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_95
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 511
+        width: 208
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aacd073f3fdd80f0800000000000000
+      internalID: -1112988070291060059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_96
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 511
+        width: 245
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02750e52797a6fdb0800000000000000
+      internalID: -4758431688652990688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_97
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 511
+        width: 246
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ba041d201f00850800000000000000
+      internalID: 6341333269740563237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_98
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 511
+        width: 249
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab57d1e580cbdb00800000000000000
+      internalID: 854488235569011625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_99
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 511
+        width: 177
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2599b93ff4289e0800000000000000
+      internalID: -1620645008193793327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_100
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 522
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b7cfb1a00412160800000000000000
+      internalID: 6998945708073843467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_101
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 511
+        width: 177
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e154a666dce95a0800000000000000
+      internalID: -6512542171377885693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_102
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 516
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4028738a16c49f410800000000000000
+      internalID: 1511323132277260804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_103
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 549
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d96107811d48bd0800000000000000
+      internalID: -2628746379587576469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_104
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 554
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4787e5e443d0960800000000000000
+      internalID: 7569764059876717816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_105
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 538
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df89875f9c5f95c0800000000000000
+      internalID: -4206541687502565422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_106
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 544
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00cb4b3b76eec7b0800000000000000
+      internalID: -5201967102616158196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_107
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 521
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fb3515dfb401f10800000000000000
+      internalID: 2238372566166388521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b307a76d3d36370800000000000000
+      internalID: 8314722255186705288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_109
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793b089b32004ab80800000000000000
+      internalID: -8384576452820946025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_110
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b12a3d12b919b90800000000000000
+      internalID: -7236832556620833918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_111
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 255
+        width: 169
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b559cbdfbea7ba640800000000000000
+      internalID: 5092298957665375579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_112
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 189
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2150ec30ae3cd5890800000000000000
+      internalID: -7467597197256817390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_113
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 199
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12637fd4a567cf8d0800000000000000
+      internalID: -2811241937158851039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dragon_1_Spritelist_114
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 204
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9432cdf24516c00800000000000000
+      internalID: 892086765729565178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dragon_1_Spritelist_0: 8772391102920484823
+      Dragon_1_Spritelist_1: 2319870322208339098
+      Dragon_1_Spritelist_10: 7655820477423233306
+      Dragon_1_Spritelist_100: 6998945708073843467
+      Dragon_1_Spritelist_101: -6512542171377885693
+      Dragon_1_Spritelist_102: 1511323132277260804
+      Dragon_1_Spritelist_103: -2628746379587576469
+      Dragon_1_Spritelist_104: 7569764059876717816
+      Dragon_1_Spritelist_105: -4206541687502565422
+      Dragon_1_Spritelist_106: -5201967102616158196
+      Dragon_1_Spritelist_107: 2238372566166388521
+      Dragon_1_Spritelist_108: 8314722255186705288
+      Dragon_1_Spritelist_109: -8384576452820946025
+      Dragon_1_Spritelist_11: 4287723372297327166
+      Dragon_1_Spritelist_110: -7236832556620833918
+      Dragon_1_Spritelist_111: 5092298957665375579
+      Dragon_1_Spritelist_112: -7467597197256817390
+      Dragon_1_Spritelist_113: -2811241937158851039
+      Dragon_1_Spritelist_114: 892086765729565178
+      Dragon_1_Spritelist_12: -287597660212809109
+      Dragon_1_Spritelist_13: -1597359470935889847
+      Dragon_1_Spritelist_14: -3992054640983303237
+      Dragon_1_Spritelist_15: -1295350318982250787
+      Dragon_1_Spritelist_16: 318415127251550780
+      Dragon_1_Spritelist_17: -8915581338881984160
+      Dragon_1_Spritelist_18: 4604164504166690010
+      Dragon_1_Spritelist_19: 2325624480124189286
+      Dragon_1_Spritelist_2: 5265647518275664267
+      Dragon_1_Spritelist_20: 5397887338241348909
+      Dragon_1_Spritelist_21: -244270792539099106
+      Dragon_1_Spritelist_22: 1620428297805955300
+      Dragon_1_Spritelist_23: 8017771968108807451
+      Dragon_1_Spritelist_24: -4523455278073832946
+      Dragon_1_Spritelist_25: 8132296189780123205
+      Dragon_1_Spritelist_26: 7102629735001895497
+      Dragon_1_Spritelist_27: -572986830760661650
+      Dragon_1_Spritelist_28: 1994062394463347363
+      Dragon_1_Spritelist_29: -5750686883584652063
+      Dragon_1_Spritelist_3: 3278768731509885178
+      Dragon_1_Spritelist_30: -8083328039978087332
+      Dragon_1_Spritelist_31: -7967032268825762026
+      Dragon_1_Spritelist_32: -8264909527439346620
+      Dragon_1_Spritelist_33: 6530983989101613371
+      Dragon_1_Spritelist_34: -5031117913306789093
+      Dragon_1_Spritelist_35: -5305717127971767981
+      Dragon_1_Spritelist_36: -8875140149441932514
+      Dragon_1_Spritelist_37: -53452538194964808
+      Dragon_1_Spritelist_38: -5977070553002928678
+      Dragon_1_Spritelist_39: -5018916911614819219
+      Dragon_1_Spritelist_4: -8958804616462562831
+      Dragon_1_Spritelist_40: 8366672482207792235
+      Dragon_1_Spritelist_41: 841005310412642896
+      Dragon_1_Spritelist_42: -6479594144312099081
+      Dragon_1_Spritelist_43: 4393455176651224688
+      Dragon_1_Spritelist_44: -3798440413315765666
+      Dragon_1_Spritelist_45: 7918794504350017769
+      Dragon_1_Spritelist_46: -971717312649810835
+      Dragon_1_Spritelist_47: -1243351566907003922
+      Dragon_1_Spritelist_48: 5373191296488994700
+      Dragon_1_Spritelist_49: -243135182774096678
+      Dragon_1_Spritelist_5: 3280212990906671840
+      Dragon_1_Spritelist_50: -8605595235697544194
+      Dragon_1_Spritelist_51: 1721321382991221751
+      Dragon_1_Spritelist_52: 7870108017280011085
+      Dragon_1_Spritelist_53: 7493725266135068781
+      Dragon_1_Spritelist_54: -397476817778203606
+      Dragon_1_Spritelist_55: 1529942126916674037
+      Dragon_1_Spritelist_56: 5569988967803929741
+      Dragon_1_Spritelist_57: 7100861630073122651
+      Dragon_1_Spritelist_58: -3022710633056453953
+      Dragon_1_Spritelist_59: -7286371531824515986
+      Dragon_1_Spritelist_6: -63421300187484060
+      Dragon_1_Spritelist_60: 1529105387115448227
+      Dragon_1_Spritelist_61: -2182454913262055172
+      Dragon_1_Spritelist_62: 7627319057317402569
+      Dragon_1_Spritelist_63: -766794379584692579
+      Dragon_1_Spritelist_64: -5812326086945630150
+      Dragon_1_Spritelist_65: -2279625827677682344
+      Dragon_1_Spritelist_66: 6936853871339470804
+      Dragon_1_Spritelist_67: -713396531169352072
+      Dragon_1_Spritelist_68: 2306802775611137868
+      Dragon_1_Spritelist_69: 4910547814941319301
+      Dragon_1_Spritelist_7: 8289609695305229941
+      Dragon_1_Spritelist_70: -6123242133629278786
+      Dragon_1_Spritelist_71: 7665499362895372692
+      Dragon_1_Spritelist_72: 5322622273863726929
+      Dragon_1_Spritelist_73: -7529130077006260599
+      Dragon_1_Spritelist_74: 8492341173553736193
+      Dragon_1_Spritelist_75: -873285975920078871
+      Dragon_1_Spritelist_76: -5561493230217310235
+      Dragon_1_Spritelist_77: -5899271544213150852
+      Dragon_1_Spritelist_78: 606380144368890986
+      Dragon_1_Spritelist_79: 336510765989321077
+      Dragon_1_Spritelist_8: -8637162527370726616
+      Dragon_1_Spritelist_80: 882819274057611562
+      Dragon_1_Spritelist_81: -1350144490010600514
+      Dragon_1_Spritelist_82: -1580349192969079793
+      Dragon_1_Spritelist_83: 4552000759131699663
+      Dragon_1_Spritelist_84: 3296261539308984085
+      Dragon_1_Spritelist_85: 5662112619559622043
+      Dragon_1_Spritelist_86: -3401880310143025009
+      Dragon_1_Spritelist_87: -4926155620513528391
+      Dragon_1_Spritelist_88: -736342833839337012
+      Dragon_1_Spritelist_89: -4568049101055151117
+      Dragon_1_Spritelist_9: -6306559365836538230
+      Dragon_1_Spritelist_90: -9030925785083311621
+      Dragon_1_Spritelist_91: 7351996146121660769
+      Dragon_1_Spritelist_92: -6359938303075579375
+      Dragon_1_Spritelist_93: -5334617301393065236
+      Dragon_1_Spritelist_94: -6680592265234757705
+      Dragon_1_Spritelist_95: -1112988070291060059
+      Dragon_1_Spritelist_96: -4758431688652990688
+      Dragon_1_Spritelist_97: 6341333269740563237
+      Dragon_1_Spritelist_98: 854488235569011625
+      Dragon_1_Spritelist_99: -1620645008193793327
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
