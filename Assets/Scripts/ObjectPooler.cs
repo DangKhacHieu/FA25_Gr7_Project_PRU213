@@ -10,7 +10,7 @@ public class ObjectPooler : MonoBehaviour
     private List<GameObject> _pool;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         // Create pool
 

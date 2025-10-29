@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using System;
+using UnityEngine.UIElements;
 
 public class Spawner : MonoBehaviour
 {
@@ -10,16 +12,23 @@ public class Spawner : MonoBehaviour
     [SerializeField] private Path[] paths; // nhiều đường đi
 
     [SerializeField] private WaveData[] waves;
+
+    // code mới thêm 
+    [SerializeField] private float timeBetweenWaves = 5f; // Thời gian chờ giữa các wave
+
     private int _currentWaveIndex = 0;
     private int _waveCounter = 0;
     private WaveData CurrentWave => waves[_currentWaveIndex];
 
+    // Đếm quái để biết khi nào wave kết thúc
+    private int _enemiesSpawned;
+    private int _enemiesRemoved; // (Bạn đã có _enemiesRemoved)
 
-    private float _spawTimer;
+   // private float _spawTimer;
     // private float _spawnInterval = 1f;
-    public GameObject Prefab;
+  /*  public GameObject Prefab;
     private float _spawnCounter;
-    private int _enemiesRemoved;    
+    private int _enemiesRemoved;    */
 
     [Header("Object Pools")]
     [SerializeField] private ObjectPooler Yetipool;
@@ -30,9 +39,9 @@ public class Spawner : MonoBehaviour
 
     private Dictionary<EnemyType, ObjectPooler> _poolDictionary;
 
-    private float _timeBetweenWaves = 2f;
+    /*private float _timeBetweenWaves = 2f;
     private float _waveCooldown;
-    private bool _isBetweenWaves = false;
+    private bool _isBetweenWaves = false;*/
 
     private void Awake()
     {
@@ -49,56 +58,162 @@ public class Spawner : MonoBehaviour
 
     private void OnEnable()
     {
+        // Giữ nguyên
         Enemy.OnEnemyReachedEnd += HandleEnemyReachedEnd;
+        // Bạn cũng cần một event khi quái chết (Enemy.OnEnemyDied)
+        // Enemy.OnEnemyDied += HandleEnemyRemoved;
+        // Vì hiện tại bạn chỉ đếm quái về đích, nếu quái bị giết,
+        // wave sẽ không bao giờ kết thúc.
+        // Tạm thời, tôi sẽ giả định bạn thêm event OnEnemyDied
+
+        // --- THÊM DÒNG NÀY ---
+        Enemy.OnEnemyDied += HandleEnemyDied;
     }
 
     private void OnDisable()
     {
+        // Giữ nguyên
         Enemy.OnEnemyReachedEnd -= HandleEnemyReachedEnd;
+        // Enemy.OnEnemyDied -= HandleEnemyRemoved;
+
+        // --- THÊM DÒNG NÀY ---
+        Enemy.OnEnemyDied -= HandleEnemyDied;
     }
 
     private void Start()
     {
-        OnWaveChange?.Invoke(_currentWaveIndex);
+        //  OnWaveChange?.Invoke(_currentWaveIndex);
+        // Bắt đầu vòng lặp wave
+        StartCoroutine(SpawnWaves());
     }
 
-    void Update()
+    /* void Update()
+     {
+         if (_isBetweenWaves)
+         {
+             _waveCooldown -= Time.deltaTime;
+                 if(_waveCooldown <= 0f)
+             {
+                 _currentWaveIndex = (_currentWaveIndex + 1) % waves.Length;
+                 _waveCounter++;
+                 OnWaveChange?.Invoke(_waveCounter);
+                 _spawnCounter = 0;
+                 _enemiesRemoved = 0;
+                 _spawTimer = 0f;
+                 _isBetweenWaves = false;
+             }
+         }
+         else
+         {
+             _spawTimer -= Time.deltaTime;
+             if (_spawTimer <= 0 && _spawnCounter < CurrentWave.enemiesPerWave)
+             {
+                 _spawTimer = CurrentWave.spawnInterval;
+                 SpawnEnemy();
+                 _spawnCounter++;
+             }
+             else if (_spawnCounter >= CurrentWave.enemiesPerWave && _enemiesRemoved >=
+                 CurrentWave.enemiesPerWave)
+             {
+                 _isBetweenWaves = true;
+                 _waveCooldown = _timeBetweenWaves;
+
+             }
+         }
+
+     }*/
+    // mới thêm
+    private IEnumerator SpawnWaves()
     {
-        if (_isBetweenWaves)
+        while (true) // Lặp vô hạn các wave (hoặc bạn có thể thay đổi)
         {
-            _waveCooldown -= Time.deltaTime;
-                if(_waveCooldown <= 0f)
+            if (_currentWaveIndex >= waves.Length)
             {
-                _currentWaveIndex = (_currentWaveIndex + 1) % waves.Length;
-                _waveCounter++;
-                OnWaveChange?.Invoke(_waveCounter);
-                _spawnCounter = 0;
-                _enemiesRemoved = 0;
-                _spawTimer = 0f;
-                _isBetweenWaves = false;
+                Debug.Log("Đã hoàn thành tất cả các wave!");
+                // TODO: Xử lý logic thắng game
+                yield break; // Dừng coroutine
             }
+
+            OnWaveChange?.Invoke(_waveCounter); // Thông báo UI (Wave 1, 2, 3...)
+
+            WaveData currentWave = waves[_currentWaveIndex];
+
+            // Reset bộ đếm cho wave mới
+            _enemiesSpawned = 0;
+            _enemiesRemoved = 0;
+
+            // Bắt đầu spawn từng nhóm trong wave
+            foreach (EnemyGroup group in currentWave.enemyGroups)
+            {
+                StartCoroutine(SpawnEnemyGroup(group));
+            }
+
+            // Chờ cho đến khi tất cả quái đã spawn VÀ tất cả quái đã bị xóa
+            // (về đích HOẶC bị giết)
+            yield return new WaitUntil(() => _enemiesRemoved >= _enemiesSpawned);
+
+            Debug.Log($"Hoàn thành Wave: {_waveCounter}");
+
+            // TODO: Thưởng vàng cho wave
+            // GameManager.Instance.AddGold(currentWave.waveGoldReward);
+
+            // Chờ giữa các wave
+            yield return new WaitForSeconds(timeBetweenWaves);
+
+            // Chuyển sang wave tiếp theo
+            _currentWaveIndex++;
+            _waveCounter++;
+        }
+    }
+
+    private IEnumerator SpawnEnemyGroup(EnemyGroup group)
+    {
+        // 1. Chờ delay của nhóm (nếu có)
+        if (group.delayBeforeGroup > 0)
+        {
+            yield return new WaitForSeconds(group.delayBeforeGroup);
+        }
+
+        // 2. Spawn quái trong nhóm
+        for (int i = 0; i < group.count; i++)
+        {
+            // Tăng bộ đếm tổng số quái đã spawn
+            _enemiesSpawned++;
+
+            // Gọi hàm SpawnEnemy của bạn
+            SpawnEnemy(group.enemyType);
+
+            // Chờ theo thời gian giãn cách của nhóm
+            yield return new WaitForSeconds(group.spawnInterval);
+        }
+    }
+    // mới thêm 
+    // Hàm SpawnEnemy của bạn được sửa đổi một chút để nhận tham số
+    private void SpawnEnemy(EnemyType enemyTypeToSpawn)
+    {
+        if (_poolDictionary.TryGetValue(enemyTypeToSpawn, out var pool))
+        {
+            GameObject spawnedObject = pool.GetPoolObject();
+
+            // Logic chọn path ngẫu nhiên của bạn (giữ nguyên)
+            Path chosenPath = paths[UnityEngine.Random.Range(0, paths.Length)];
+
+            spawnedObject.transform.position = chosenPath.GetPosition(0);
+
+            Enemy enemy = spawnedObject.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.SetPath(chosenPath);
+            }
+            spawnedObject.SetActive(true);
         }
         else
         {
-            _spawTimer -= Time.deltaTime;
-            if (_spawTimer <= 0 && _spawnCounter < CurrentWave.enemiesPerWave)
-            {
-                _spawTimer = CurrentWave.spawnInterval;
-                SpawnEnemy();
-                _spawnCounter++;
-            }
-            else if (_spawnCounter >= CurrentWave.enemiesPerWave && _enemiesRemoved >=
-                CurrentWave.enemiesPerWave)
-            {
-                _isBetweenWaves = true;
-                _waveCooldown = _timeBetweenWaves;
-
-            }
+            Debug.LogWarning($"Không tìm thấy pool cho loại quái: {enemyTypeToSpawn}");
         }
-          
     }
 
-    private void SpawnEnemy()
+    /*private void SpawnEnemy()
     {
         if (_poolDictionary.TryGetValue(CurrentWave.enemyTpye, out var pool))
         {
@@ -124,11 +239,15 @@ public class Spawner : MonoBehaviour
             Debug.LogWarning($"Không tìm thấy pool cho loại quái: {CurrentWave.enemyTpye}");
         }
 
-    }
+    }*/
 
     private void HandleEnemyReachedEnd(EnemyData data)
     {
         _enemiesRemoved++;
     }
 
+    private void HandleEnemyDied(EnemyData data)
+    {
+        _enemiesRemoved++;
+    }
 }
