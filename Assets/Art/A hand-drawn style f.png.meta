@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 51494201004e4c24595b380d8aee2bdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8909321997904493138
+    second: A hand-drawn style f_0
+  - first:
+      213: 3731409616390623869
+    second: A hand-drawn style f_1
+  - first:
+      213: -1850724724607779791
+    second: A hand-drawn style f_2
+  - first:
+      213: -5418404175942081947
+    second: A hand-drawn style f_3
+  - first:
+      213: -2152379155554035364
+    second: A hand-drawn style f_4
+  - first:
+      213: -1066123029543115626
+    second: A hand-drawn style f_5
+  - first:
+      213: 4058151018817668618
+    second: A hand-drawn style f_6
+  - first:
+      213: 7850149150458815018
+    second: A hand-drawn style f_7
+  - first:
+      213: 7072162290056874967
+    second: A hand-drawn style f_8
+  - first:
+      213: 7249637109215934187
+    second: A hand-drawn style f_9
+  - first:
+      213: 2483076622290006058
+    second: A hand-drawn style f_10
+  - first:
+      213: 6728227865982274356
+    second: A hand-drawn style f_11
+  - first:
+      213: 7233126882244461352
+    second: A hand-drawn style f_12
+  - first:
+      213: -8261887014982748977
+    second: A hand-drawn style f_13
+  - first:
+      213: -6609918632319298398
+    second: A hand-drawn style f_14
+  - first:
+      213: -6146580081709602388
+    second: A hand-drawn style f_15
+  - first:
+      213: -5370166998613181215
+    second: A hand-drawn style f_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A hand-drawn style f_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 543
+        width: 516
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25abbaa472544ab70800000000000000
+      internalID: 8909321997904493138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_1
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 914
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d729078b641a8c330800000000000000
+      internalID: 3731409616390623869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 903
+        width: 171
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13c78b42ba7e056e0800000000000000
+      internalID: -1850724724607779791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_3
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 523
+        width: 420
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562aa732c16fdc4b0800000000000000
+      internalID: -5418404175942081947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_5
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 747
+        width: 257
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6942831d0ce5431f0800000000000000
+      internalID: -1066123029543115626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_6
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 864
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a064481c9d2715830800000000000000
+      internalID: 4058151018817668618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 545
+        width: 312
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22aeea7f0551fc60800000000000000
+      internalID: 7850149150458815018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_8
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 779
+        width: 132
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbc0c4022e552260800000000000000
+      internalID: 7072162290056874967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 435
+        height: 510
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be63e456a82eb9460800000000000000
+      internalID: 7249637109215934187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 432
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a203ca53809a57220800000000000000
+      internalID: 2483076622290006058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_11
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 19
+        width: 321
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b02cfa8977f5d50800000000000000
+      internalID: 6728227865982274356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_12
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 427
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823828f939a316460800000000000000
+      internalID: 7233126882244461352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_13
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1
+        width: 451
+        height: 477
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc47a818881e75d80800000000000000
+      internalID: -8261887014982748977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_14
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 185
+        width: 312
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a45f56560ad444a0800000000000000
+      internalID: -6609918632319298398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_15
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 275
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9253e4bf5f2baa0800000000000000
+      internalID: -6146580081709602388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A hand-drawn style f_16
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 236
+        width: 97
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecb22f21955975b0800000000000000
+      internalID: -5370166998613181215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ead79c59aeb0db94081896dad73fd838
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A hand-drawn style f_0: 8909321997904493138
+      A hand-drawn style f_1: 3731409616390623869
+      A hand-drawn style f_10: 2483076622290006058
+      A hand-drawn style f_11: 6728227865982274356
+      A hand-drawn style f_12: 7233126882244461352
+      A hand-drawn style f_13: -8261887014982748977
+      A hand-drawn style f_14: -6609918632319298398
+      A hand-drawn style f_15: -6146580081709602388
+      A hand-drawn style f_16: -5370166998613181215
+      A hand-drawn style f_2: -1850724724607779791
+      A hand-drawn style f_3: -5418404175942081947
+      A hand-drawn style f_4: -2152379155554035364
+      A hand-drawn style f_5: -1066123029543115626
+      A hand-drawn style f_6: 4058151018817668618
+      A hand-drawn style f_7: 7850149150458815018
+      A hand-drawn style f_8: 7072162290056874967
+      A hand-drawn style f_9: 7249637109215934187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
