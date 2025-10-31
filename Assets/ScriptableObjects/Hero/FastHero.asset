@@ -17,3 +17,11 @@ MonoBehaviour:
   projectileSpeed: 10
   projectileDuration: 2
   damage: 1
+  targetPriority: 0
+  projectilePrefab: {fileID: 1856883733342639241, guid: 1762bcacfb85cf948a40d6e33dd8fc6a, type: 3}
+  shootSound: {fileID: 0}
+  cost: 100
+  upgradeCost: 50
+  isMapIceHero: 0
+  iceDamageMultiplier: 1.3
+  iceAttackSpeedMultiplier: 1.25

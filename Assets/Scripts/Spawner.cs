@@ -6,6 +6,10 @@ using UnityEngine.UIElements;
 
 public class Spawner : MonoBehaviour
 {
+    // --- THÊM DÒNG NÀY VÀO ĐÂY ---
+    // Sự kiện này sẽ thông báo cho CurrencyManager biết wave nào vừa xong
+    public static event Action<int> OnWaveCompleted;
+    // --- HẾT THÊM MỚI ---
 
     public static event Action<int> OnWaveChange;
 
@@ -15,6 +19,10 @@ public class Spawner : MonoBehaviour
 
     // code mới thêm 
     [SerializeField] private float timeBetweenWaves = 5f; // Thời gian chờ giữa các wave
+
+    // --- THÊM DÒNG NÀY ---
+    public static event Action OnAllWavesCompleted;
+    // --- HẾT PHẦN THÊM MỚI ---
 
     private int _currentWaveIndex = 0;
     private int _waveCounter = 0;
@@ -131,6 +139,7 @@ public class Spawner : MonoBehaviour
             {
                 Debug.Log("Đã hoàn thành tất cả các wave!");
                 // TODO: Xử lý logic thắng game
+                OnAllWavesCompleted?.Invoke(); // Thông báo cho cả game biết đã thắng
                 yield break; // Dừng coroutine
             }
 
@@ -153,6 +162,15 @@ public class Spawner : MonoBehaviour
             yield return new WaitUntil(() => _enemiesRemoved >= _enemiesSpawned);
 
             Debug.Log($"Hoàn thành Wave: {_waveCounter}");
+
+            // --- THÊM MỚI ĐỂ GỌI CurrencyManager ---
+            //
+            // Bắn tín hiệu cho CurrencyManager biết wave này đã xong.
+            // Vì _waveCounter bắt đầu từ 1, nó sẽ gửi đi 1, 2, 3...
+            // CurrencyManager sẽ nhận và kiểm tra (switch) xem có phải 3, 5, 8 không.
+            //
+            OnWaveCompleted?.Invoke(_waveCounter);
+            // --- HẾT THÊM MỚI ---
 
             // TODO: Thưởng vàng cho wave
             // GameManager.Instance.AddGold(currentWave.waveGoldReward);

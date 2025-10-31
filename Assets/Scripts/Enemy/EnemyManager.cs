@@ -10,6 +10,10 @@ public class EnemyManager : MonoBehaviour
     private void Awake()
     {
         if (Instance == null) Instance = this;
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void RegisterEnemy(Enemy enemy)
@@ -20,11 +24,16 @@ public class EnemyManager : MonoBehaviour
 
     public void UnregisterEnemy(Enemy enemy)
     {
-        activeEnemies.Remove(enemy);
+        if (activeEnemies.Contains(enemy))
+        {
+            activeEnemies.Remove(enemy);
+        }
     }
 
     public List<Enemy> GetActiveEnemies()
     {
+        // Xóa quái null (an toàn)
+        activeEnemies.RemoveAll(item => item == null);
         return activeEnemies;
     }
 }

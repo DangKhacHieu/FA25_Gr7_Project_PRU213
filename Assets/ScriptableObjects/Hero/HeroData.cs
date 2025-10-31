@@ -14,7 +14,7 @@ public class HeroData : ScriptableObject
     public float shootInterval = 1f;
     public float projectileSpeed = 8f;
     public float projectileDuration = 3f;
-    public float damage = 10f;
+    public float damage = 10f;*/
 
     [Header("Targeting")]
     public TargetPriority targetPriority = TargetPriority.First; // Ưu tiên bắn ai
@@ -30,7 +30,7 @@ public class HeroData : ScriptableObject
     [Header("Special Buff")]
     public bool isMapIceHero = false;
     public float iceDamageMultiplier = 1.3f;
-    public float iceAttackSpeedMultiplier = 1.25f;*/
+    public float iceAttackSpeedMultiplier = 1.25f;
 }
 
 /*public enum TargetPriority

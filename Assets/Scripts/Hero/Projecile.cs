@@ -6,6 +6,11 @@ public class Projecile : MonoBehaviour
     private Vector3 _shootDirection;
     private float _projectileDuration;
     //private float _finalDamage;
+
+    // --- THÊM MỚI ---
+    // Biến này sẽ lưu sát thương
+    private float _damageToDeal; 
+    // --- HẾT THÊM MỚI ---
     void Update()
     {
         if(_projectileDuration <= 0)
@@ -22,33 +27,50 @@ public class Projecile : MonoBehaviour
         }
     }
 
-    public void shoot(HeroData data, Vector3 shootDirection)
+    public void shoot(HeroData data, Vector3 shootDirection, float damage)
     {
         _data = data;
         _shootDirection = shootDirection.normalized;
         _projectileDuration = _data.projectileDuration;
-        
+        _damageToDeal = damage; // Lưu sát thương lại
+
     }
 
-   /* private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
         {
             Enemy enemy = collision.GetComponent<Enemy>();
             if (enemy != null)
             {
-                float damageToDeal = _finalDamage;
-
-                // Nếu enemy thuộc map băng thì tăng damage
-                if (enemy.isIceMapEnemy)  // ← biến bool này bạn có thể thêm trong script Enemy
-                {
-                    damageToDeal *= 1.3f; // tăng 30% damage chẳng hạn
-                }
-
-                enemy.TakeDamage(damageToDeal);
+                // Dùng sát thương đã được Hero truyền cho
+                enemy.TakeDamage(_damageToDeal);
             }
 
-            gameObject.SetActive(false); // viên đạn biến mất sau khi trúng
+            // Tắt viên đạn sau khi trúng
+            gameObject.SetActive(false);
         }
-    }*/
+    }
+
+    /* private void OnTriggerEnter2D(Collider2D collision)
+     {
+         if (collision.CompareTag("Enemy"))
+         {
+             Enemy enemy = collision.GetComponent<Enemy>();
+             if (enemy != null)
+             {
+                 float damageToDeal = _finalDamage;
+
+                 // Nếu enemy thuộc map băng thì tăng damage
+                 if (enemy.isIceMapEnemy)  // ← biến bool này bạn có thể thêm trong script Enemy
+                 {
+                     damageToDeal *= 1.3f; // tăng 30% damage chẳng hạn
+                 }
+
+                 enemy.TakeDamage(damageToDeal);
+             }
+
+             gameObject.SetActive(false); // viên đạn biến mất sau khi trúng
+         }
+     }*/
 }

@@ -15,4 +15,5 @@ MonoBehaviour:
   lives: 6
   damage: 1
   speed: 2
-  type: 0
+  type: 1
+  goldReward: 42
