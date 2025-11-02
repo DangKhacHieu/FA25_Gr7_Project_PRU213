@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 2
   damage: 1
-  speed: 3
+  speed: 1.1
   type: 2
   goldReward: 40
+  isSlowImmune: 0
+  shieldAmount: 10
+  shieldRegenTime: 60

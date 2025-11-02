@@ -21,7 +21,7 @@ public class UiController : MonoBehaviour
 
     private void UpdateWaveText(int currentWave)
     {
-        waveText.text = $"wave: {currentWave + 1}";
+        waveText.text = $"wave: {currentWave++}";
     }
 
     private void UpdateLiveText(int currentLives)

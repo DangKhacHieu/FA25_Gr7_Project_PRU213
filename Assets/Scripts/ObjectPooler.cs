@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 
@@ -22,11 +22,31 @@ public class ObjectPooler : MonoBehaviour
 
     }
 
+    /* private GameObject CreateNewObject()
+     {
+         GameObject obj =  Instantiate(prefab);
+         obj.SetActive(false);
+         _pool.Add(obj);
+         return obj;
+     }*/
+
+    // --- ĐÂY LÀ HÀM ĐÃ SỬA LẠI CHO ĐÚNG ---
     private GameObject CreateNewObject()
     {
-        GameObject obj =  Instantiate(prefab);
+        // 1. Dùng biến 'prefab' của bạn
+        GameObject obj = Instantiate(prefab);
+
+        // --- THÊM DÒNG NÀY ---
+        // Biến object mới thành con của pool (cho gọn gàng)
+        obj.transform.SetParent(transform);
+        // --- HẾT THÊM MỚI ---
+                    
+        // 2. Tắt nó đi (Đây là mấu chốt để sửa lỗi 'OnEnable')
         obj.SetActive(false);
+
+        // 3. Thêm nó vào 'List' của bạn
         _pool.Add(obj);
+
         return obj;
     }
 

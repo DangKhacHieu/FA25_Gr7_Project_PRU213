@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7974171523614253050
 Transform:
   m_ObjectHideFlags: 0
@@ -106,8 +106,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: a5a6157228ebf6949b4935261ed391cd, type: 2}
   healthBarSlider: {fileID: 5458081190670001211}
+  shieldBarSlider: {fileID: 0}
   currentHealth: 0
   distanceTravelled: 0
+  currentSpeed: 0
+  currentShield: 0
 --- !u!50 &-7519225851918939235
 Rigidbody2D:
   serializedVersion: 5

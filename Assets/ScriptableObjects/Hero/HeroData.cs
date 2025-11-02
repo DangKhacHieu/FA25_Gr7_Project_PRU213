@@ -3,18 +3,18 @@
 [CreateAssetMenu(fileName = "HeroData", menuName = "Scriptable Objects/HeroData")]
 public class HeroData : ScriptableObject
 {
-     public float range;
+   /*  public float range;
      public float shootInterval;
      public float projectileSpeed;
      public float projectileDuration;
-     public float damage;
+     public float damage;*/
 
-   /* [Header("Stats")]
-    public float range = 3f;
+    [Header("Stats")]
+    public float range = 5f;
     public float shootInterval = 1f;
     public float projectileSpeed = 8f;
     public float projectileDuration = 3f;
-    public float damage = 10f;*/
+    public float damage = 10f;
 
     [Header("Targeting")]
     public TargetPriority targetPriority = TargetPriority.First; // Ưu tiên bắn ai
@@ -33,9 +33,3 @@ public class HeroData : ScriptableObject
     public float iceAttackSpeedMultiplier = 1.25f;
 }
 
-/*public enum TargetPriority
-{
-    First,
-    Closest,
-    Strongest
-}*/

@@ -34,6 +34,8 @@ public class Projecile : MonoBehaviour
         _projectileDuration = _data.projectileDuration;
         _damageToDeal = damage; // Lưu sát thương lại
 
+        Debug.Log($"Bắn ra viên đạn với {damage} sát thương");
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -25,7 +25,7 @@ public class Spawner : MonoBehaviour
     // --- HẾT PHẦN THÊM MỚI ---
 
     private int _currentWaveIndex = 0;
-    private int _waveCounter = 0;
+    private int _waveCounter = 1;
     private WaveData CurrentWave => waves[_currentWaveIndex];
 
     // Đếm quái để biết khi nào wave kết thúc
@@ -45,7 +45,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private ObjectPooler SnowManpool;
     [SerializeField] private ObjectPooler BossYetipool;
 
-    private Dictionary<EnemyType, ObjectPooler> _poolDictionary;
+    public static Dictionary<EnemyType, ObjectPooler> PoolDictionary { get; private set; }
 
     /*private float _timeBetweenWaves = 2f;
     private float _waveCooldown;
@@ -53,7 +53,7 @@ public class Spawner : MonoBehaviour
 
     private void Awake()
     {
-        _poolDictionary = new Dictionary<EnemyType, ObjectPooler>() 
+        PoolDictionary = new Dictionary<EnemyType, ObjectPooler>() 
         {
             { EnemyType.yeti,Yetipool},
             { EnemyType.YetiTanker,YetiTankerpool},
@@ -209,7 +209,7 @@ public class Spawner : MonoBehaviour
     // Hàm SpawnEnemy của bạn được sửa đổi một chút để nhận tham số
     private void SpawnEnemy(EnemyType enemyTypeToSpawn)
     {
-        if (_poolDictionary.TryGetValue(enemyTypeToSpawn, out var pool))
+        if (PoolDictionary.TryGetValue(enemyTypeToSpawn, out var pool))
         {
             GameObject spawnedObject = pool.GetPoolObject();
 

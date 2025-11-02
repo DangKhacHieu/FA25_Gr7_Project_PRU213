@@ -6,7 +6,7 @@ using System.Linq;
 
 public class Hero : MonoBehaviour
 {
-    [SerializeField] private HeroData data;
+    /*[SerializeField] private HeroData data;
   //  private CircleCollider2D _circleCollider;
   //  private List<Enemy> _enemiesInRange;
     private ObjectPooler _projectilePool;
@@ -37,36 +37,11 @@ public class Hero : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, data.range);
     }
 
-   /* private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemy")) 
-        {
-            Enemy enemy = collision.GetComponent<Enemy>();
-            _enemiesInRange.Add(enemy);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemy"))
-        {
-            Enemy enemy = collision.GetComponent<Enemy>();
-            if (_enemiesInRange.Contains(enemy))
-            {
-                _enemiesInRange.Remove(enemy);
-            }
-        }
-    }*/
+ 
 
 
     private void Shoot() {
-        /* if (_enemiesInRange.Count > 0) 
-         { GameObject projectile = _projectilePool.GetPoolObject();
-           projectile.transform.position = transform.position; 
-           projectile.SetActive(true); 
-           Vector2 _shootDirection = (_enemiesInRange[0].transform.position - transform.position).normalized; 
-             projectile.GetComponent<Projecile>().shoot(data, _shootDirection); 
-         } */
+       
 
         // 1. Lấy tất cả quái đang hoạt động từ EnemyManager
         // (Chúng ta sẽ cần tạo script EnemyManager ở bước 3)
@@ -92,10 +67,7 @@ public class Hero : MonoBehaviour
 
         // 4. (Tùy chọn) Logic buff sát thương (tôi lấy từ code comment của bạn)
         float finalDamage = data.damage;
-        // if (data.isMapIceHero && IsIceEnemy(target))
-        // {
-        //     finalDamage *= data.iceDamageMultiplier;
-        // }
+        
 
         // 5. Bắn đạn
         GameObject projectile = _projectilePool.GetPoolObject();
@@ -190,7 +162,196 @@ public class Hero : MonoBehaviour
             return list[0];
         }
         return null; // Không tìm thấy mục tiêu
-    }   
+    }   */
+
+
+
+    [SerializeField] private HeroData data;
+    private ObjectPooler _projectilePool;
+    private float _shootTimer; // Đếm ngược thời gian bắn
+
+    private void Start()
+    {
+        _projectilePool = GetComponent<ObjectPooler>();
+        _shootTimer = 0; // Bắn ngay khi bắt đầu
+    }
+
+    private void Update()
+    {
+        _shootTimer -= Time.deltaTime;
+        if (_shootTimer <= 0)
+        {
+            // Hàm Shoot() sẽ tự xử lý việc reset _shootTimer
+            Shoot();
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        if (data == null) return;
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, data.range);
+    }
+
+    /// <summary>
+    /// Hàm bắn chính, kết hợp logic tìm địch, buff, và reset timer
+    /// </summary>
+    private void Shoot()
+    {
+        // 1. Lấy tất cả quái
+        List<Enemy> allEnemies = EnemyManager.Instance.GetActiveEnemies();
+
+        // Mặc định reset timer. Nếu không có quái, chờ 1 nhịp.
+        // (Bạn có thể đổi thành data.shootInterval nếu muốn)
+        float nextShootInterval = 0.25f;
+
+        if (allEnemies == null || allEnemies.Count == 0)
+        {
+            _shootTimer = nextShootInterval;
+            return;
+        }
+
+        // 2. Lọc quái trong tầm bắn
+        List<Enemy> inRangeEnemies = new List<Enemy>();
+        foreach (var e in allEnemies)
+        {
+            if (e == null || !e.gameObject.activeInHierarchy) continue;
+            float dist = Vector3.Distance(transform.position, e.transform.position);
+            if (dist <= data.range)
+                inRangeEnemies.Add(e);
+        }
+
+        if (inRangeEnemies.Count == 0)
+        {
+            _shootTimer = nextShootInterval;
+            return;
+        }
+
+        // 3. Chọn mục tiêu dựa trên ưu tiên (Smart, First, v.v.)
+        Enemy target = SelectTarget(inRangeEnemies);
+        if (target == null)
+        {
+            _shootTimer = nextShootInterval;
+            return;
+        }
+
+        // 4. Tính toán Sát thương và Tốc độ đánh (Lấy từ code comment của bạn)
+        float finalDamage = data.damage;
+        float finalShootInterval = data.shootInterval;
+
+        // Nếu là trụ băng VÀ bắn quái băng -> được buff
+        if (data.isMapIceHero && IsIceEnemy(target))
+        {
+            finalDamage *= data.iceDamageMultiplier;
+            finalShootInterval /= data.iceAttackSpeedMultiplier; // Bắn nhanh hơn
+        }
+
+        // 5. Reset timer cho phát bắn TIẾP THEO
+        _shootTimer = finalShootInterval;
+
+        // 6. Bắn đạn
+        GameObject projectile = _projectilePool.GetPoolObject();
+        if (projectile == null) return;
+
+        projectile.transform.position = transform.position;
+        projectile.SetActive(true);
+
+        Vector2 dir = (target.transform.position - transform.position).normalized;
+
+        // Giả định hàm shoot của bạn có 3 tham số
+        projectile.GetComponent<Projecile>().shoot(data, dir, finalDamage);
+    }
+
+    /// <summary>
+    /// Chọn mục tiêu từ danh sách quái trong tầm bắn
+    /// </summary>
+    private Enemy SelectTarget(List<Enemy> list)
+    {
+        // --- LOGIC "SMART" (TÙY TÌNH HUỐNG) ---
+        if (data.targetPriority == TargetPriority.Smart)
+        {
+            Enemy weakestEnemy = null;
+            float minHealth = float.MaxValue;
+
+            // Tình huống 1: Tìm quái để "kết liễu" (còn dưới 25% máu)
+            foreach (Enemy e in list)
+            {
+                float healthPercent = e.currentHealth / e.Data.lives;
+                if (healthPercent > 0 && healthPercent <= 0.25f)
+                {
+                    if (e.currentHealth < minHealth)
+                    {
+                        minHealth = e.currentHealth;
+                        weakestEnemy = e;
+                    }
+                }
+            }
+
+            // Nếu tìm thấy một con để kết liễu -> Bắn nó ngay
+            if (weakestEnemy != null)
+            {
+                return weakestEnemy;
+            }
+
+            // Tình huống 2: Nếu không có con nào sắp chết, quay về logic "First"
+            return GetTargetByPriority(list, TargetPriority.First);
+        }
+
+        // --- LOGIC CƠ BẢN (First, Closest, v.v.) ---
+        return GetTargetByPriority(list, data.targetPriority);
+    }
+
+    /// <summary>
+    /// Sắp xếp danh sách và trả về mục tiêu đầu tiên
+    /// </summary>
+    private Enemy GetTargetByPriority(List<Enemy> list, TargetPriority priority)
+    {
+        // --- SỬA LỖI LOGIC ---
+        // Code của bạn dùng: switch (data.targetPriority)
+        // Đã sửa thành: switch (priority)
+        // (Để logic "Smart" có thể gọi "First" một cách chính xác)
+        switch (priority)
+        {
+            case TargetPriority.Closest:
+                list.Sort((a, b) =>
+                    Vector3.Distance(transform.position, a.transform.position)
+                    .CompareTo(Vector3.Distance(transform.position, b.transform.position)));
+                break;
+
+            case TargetPriority.Strongest:
+                list.Sort((a, b) => b.currentHealth.CompareTo(a.currentHealth));
+                break;
+
+            case TargetPriority.Weakest:
+                list.Sort((a, b) => a.currentHealth.CompareTo(b.currentHealth));
+                break;
+
+            case TargetPriority.First:
+            default:
+                list.Sort((a, b) => b.distanceTravelled.CompareTo(a.distanceTravelled));
+                break;
+        }
+
+        if (list.Count > 0)
+        {
+            return list[0]; // Trả về phần tử đầu tiên sau khi đã sắp xếp
+        }
+        return null;
+    }
+
+    /// <summary>
+    /// Kiểm tra xem quái có phải loại "Băng" không
+    /// </summary>
+    private bool IsIceEnemy(Enemy enemy)
+    {
+        if (enemy == null || enemy.Data == null) return false;
+
+        return enemy.Data.type == EnemyType.yeti ||
+               enemy.Data.type == EnemyType.YetiTanker ||
+               enemy.Data.type == EnemyType.PhuThuyBang ||
+               enemy.Data.type == EnemyType.SnowMan ||
+               enemy.Data.type == EnemyType.BossYeti;
+    }
 }
 
 // Bạn cũng cần định nghĩa enum TargetPriority ở đâu đó,
@@ -204,74 +365,4 @@ public enum TargetPriority
     Smart
 }
 
-    /*private void ShootLogic()
-    {
-        List<Enemy> enemies = EnemyManager.Instance.GetActiveEnemies();
-        if (enemies == null || enemies.Count == 0) return;
-
-        // Lọc quái trong tầm
-        List<Enemy> inRange = new List<Enemy>();
-        foreach (var e in enemies)
-        {
-            if (e == null) continue;
-            float dist = Vector3.Distance(transform.position, e.transform.position);
-            if (dist <= data.range)
-                inRange.Add(e);
-        }
-        if (inRange.Count == 0) return;
-
-        // Chọn mục tiêu
-        Enemy target = SelectTarget(inRange);
-
-        // Kiểm tra buff map băng
-        float finalDamage = data.damage;
-        float finalShootInterval = data.shootInterval;
-
-        if (data.isMapIceHero && IsIceEnemy(target))
-        {
-            finalDamage *= data.iceDamageMultiplier;
-            finalShootInterval /= data.iceAttackSpeedMultiplier;
-        }
-
-        // Bắn đạn
-        GameObject projectile = _projectilePool.GetPoolObject();
-
-        if (projectile == null) return;
-
-        projectile.transform.position = transform.position;
-        projectile.SetActive(true);
-
-        Vector2 dir = (target.transform.position - transform.position).normalized;
-        projectile.GetComponent<Projecile>().shoot(data, dir, finalDamage); // ✅ chỉ 3 tham số
-
-    }*/
-
-   /* private Enemy SelectTarget(List<Enemy> list)
-    {
-        switch (data.targetPriority)
-        {
-            case TargetPriority.Closest:
-                list.Sort((a, b) =>
-                    Vector3.Distance(transform.position, a.transform.position)
-                    .CompareTo(Vector3.Distance(transform.position, b.transform.position)));
-                break;
-            case TargetPriority.Strongest:
-                list.Sort((a, b) => b.currentHealth.CompareTo(a.currentHealth));
-                break;
-            case TargetPriority.First:
-            default:
-                list.Sort((a, b) => b.distanceTravelled.CompareTo(a.distanceTravelled));
-                break;
-        }
-        return list[0];
-    }*/
-
-    /*private bool IsIceEnemy(Enemy enemy)
-    {
-        return enemy.Data.type == EnemyType.yeti ||
-               enemy.Data.type == EnemyType.YetiTanker ||
-               enemy.Data.type == EnemyType.PhuThuyBang ||
-               enemy.Data.type == EnemyType.SnowMan ||
-               enemy.Data.type == EnemyType.BossYeti;
-    }*/
-
+ 
