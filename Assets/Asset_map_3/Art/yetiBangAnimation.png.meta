@@ -1,0 +1,578 @@
+fileFormatVersion: 2
+guid: 7ce872ebb2666654eadfac37b3542543
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6715824285301251786
+    second: yetiBangAnimation_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yetiBangAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 553
+        width: 242
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 112, y: -78}
+        - {x: 118, y: -52}
+        - {x: 89, y: -20}
+        - {x: 94, y: 41}
+        - {x: 82, y: 71}
+        - {x: 38, y: 103}
+        - {x: 25, y: 91}
+        - {x: 3, y: 96}
+        - {x: 0, y: 83}
+        - {x: -20, y: 65}
+        - {x: -61, y: 26}
+        - {x: -101, y: -28}
+        - {x: -98, y: -69}
+        - {x: -67, y: -74}
+        - {x: -37, y: -29}
+        - {x: -38, y: -54}
+        - {x: -71, y: -80}
+        - {x: -57, y: -116}
+        - {x: -30, y: -112}
+        - {x: 11, y: -74}
+        - {x: 28, y: -88}
+        - {x: 36, y: -117}
+        - {x: 94, y: -100}
+        - {x: 73, y: -87}
+        - {x: 52, y: -53}
+      physicsShape: []
+      tessellationDetail: 0.25
+      bones: []
+      spriteID: ace92530b96633d50800000000000000
+      internalID: 6715824285301251786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 223
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 101.5, y: -40.5}
+        - {x: 76.5, y: -18.5}
+        - {x: 82.5, y: 14.5}
+        - {x: 73.5, y: 35.5}
+        - {x: 81.5, y: 50.5}
+        - {x: 57.5, y: 81.5}
+        - {x: 30.5, y: 98.5}
+        - {x: 15.5, y: 90.5}
+        - {x: -8.5, y: 96.5}
+        - {x: -11.5, y: 80.5}
+        - {x: -31.5, y: 64.5}
+        - {x: -53.5, y: 48.5}
+        - {x: -66.5, y: 21.5}
+        - {x: -91.5, y: 6.5}
+        - {x: -101.5, y: -25.5}
+        - {x: -109.5, y: -68.5}
+        - {x: -76.5, y: -71.5}
+        - {x: -61.5, y: -47.5}
+        - {x: -48.5, y: -26.5}
+        - {x: -44.5, y: -58.5}
+        - {x: -75.5, y: -71.5}
+        - {x: -65.5, y: -113.5}
+        - {x: -36.5, y: -111.5}
+        - {x: -38.5, y: -100.5}
+        - {x: 4.5, y: -71.5}
+        - {x: 28.5, y: -97.5}
+        - {x: 35.5, y: -113.5}
+        - {x: 61.5, y: -109.5}
+        - {x: 87.5, y: -97.5}
+        - {x: 67.5, y: -85.5}
+        - {x: 60.5, y: -74.5}
+        - {x: 44.5, y: -55.5}
+        - {x: 72.5, y: -72.5}
+        - {x: 106.5, y: -71.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80652342d3252664c98ede64aa21c3ec
+      internalID: -729604925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 563
+        width: 228
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: -41, y: -101.5}
+        - {x: -13, y: -89.5}
+        - {x: -1, y: -72.5}
+        - {x: 14, y: -73.5}
+        - {x: 27, y: -91.5}
+        - {x: 43, y: -108.5}
+        - {x: 54, y: -109.5}
+        - {x: 93, y: -89.5}
+        - {x: 65, y: -74.5}
+        - {x: 46, y: -50.5}
+        - {x: 67, y: -57.5}
+        - {x: 104, y: -62.5}
+        - {x: 114, y: -27.5}
+        - {x: 80, y: -12.5}
+        - {x: 77, y: 36.5}
+        - {x: 81, y: 59.5}
+        - {x: 62, y: 82.5}
+        - {x: 34, y: 100.5}
+        - {x: 15, y: 100.5}
+        - {x: 22, y: 91.5}
+        - {x: -13, y: 97.5}
+        - {x: -6, y: 84.5}
+        - {x: -23, y: 74.5}
+        - {x: -39, y: 59.5}
+        - {x: -58, y: 46.5}
+        - {x: -71, y: 27.5}
+        - {x: -70, y: 19.5}
+        - {x: -94, y: 9.5}
+        - {x: -88, y: 1.5}
+        - {x: -103, y: -19.5}
+        - {x: -114, y: -56.5}
+        - {x: -83, y: -78.5}
+        - {x: -47, y: -29.5}
+        - {x: -45, y: -60.5}
+        - {x: -71, y: -75.5}
+        - {x: -78, y: -110.5}
+        - {x: -32, y: -112.5}
+      physicsShape: []
+      tessellationDetail: 0.208
+      bones: []
+      spriteID: 80c4a1b60fe26ce408909314a0f780d8
+      internalID: -1668154926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 563
+        width: 223
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 101.5, y: -65.5}
+        - {x: 111.5, y: -37.5}
+        - {x: 81.5, y: -5.5}
+        - {x: 83.5, y: 37.5}
+        - {x: 86.5, y: 47.5}
+        - {x: 66.5, y: 83.5}
+        - {x: 34.5, y: 106.5}
+        - {x: 0.5, y: 104.5}
+        - {x: -20.5, y: 83.5}
+        - {x: -42.5, y: 56.5}
+        - {x: -63.5, y: 32.5}
+        - {x: -92.5, y: 14.5}
+        - {x: -111.5, y: -14.5}
+        - {x: -98.5, y: -59.5}
+        - {x: -80.5, y: -44.5}
+        - {x: -43.5, y: -8.5}
+        - {x: -38.5, y: -52.5}
+        - {x: -75.5, y: -67.5}
+        - {x: -70.5, y: -111.5}
+        - {x: -40.5, y: -106.5}
+        - {x: -21.5, y: -83.5}
+        - {x: 16.5, y: -65.5}
+        - {x: 38.5, y: -107.5}
+        - {x: 93.5, y: -95.5}
+        - {x: 71.5, y: -78.5}
+        - {x: 51.5, y: -47.5}
+      physicsShape: []
+      tessellationDetail: 0.308
+      bones: []
+      spriteID: 4d0d841b64a77124f8bb7c05f749e00b
+      internalID: 980348142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 564
+        width: 250
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c694447bf577f534089ebc8f9ff6be41
+      internalID: 1092697954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 325
+        width: 222
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 107, y: -63.5}
+        - {x: 102, y: -28.5}
+        - {x: 79, y: -6.5}
+        - {x: 74, y: 35.5}
+        - {x: 81, y: 55.5}
+        - {x: 34, y: 102.5}
+        - {x: -6, y: 97.5}
+        - {x: -32, y: 64.5}
+        - {x: -50, y: 50.5}
+        - {x: -62, y: 28.5}
+        - {x: -91, y: 8.5}
+        - {x: -104, y: -18.5}
+        - {x: -109, y: -48.5}
+        - {x: -96, y: -69.5}
+        - {x: -77, y: -62.5}
+        - {x: -66, y: -58.5}
+        - {x: -65, y: -25.5}
+        - {x: -19, y: -0.5}
+        - {x: -48, y: -20.5}
+        - {x: -50, y: -57.5}
+        - {x: -68, y: -68.5}
+        - {x: -78, y: -103.5}
+        - {x: -45, y: -103.5}
+        - {x: -36, y: -93.5}
+        - {x: -26, y: -86.5}
+        - {x: -2, y: -75.5}
+        - {x: 13, y: -69.5}
+        - {x: 39, y: -107.5}
+        - {x: 88, y: -83.5}
+        - {x: 60, y: -63.5}
+        - {x: 41, y: -48.5}
+        - {x: 51, y: -38.5}
+        - {x: 67, y: -57.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89a94964b7b5604090ef244dd52d004
+      internalID: -2078471422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 321
+        width: 201
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline:
+      - - {x: 100.5, y: 111}
+        - {x: -100.5, y: 111}
+        - {x: -100.5, y: -111}
+        - {x: 100.5, y: -111}
+      physicsShape: []
+      tessellationDetail: 0.375
+      bones: []
+      spriteID: c982cb54f4c21924eaa85f1194af6ff7
+      internalID: 1061078940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 322
+        width: 215
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbe8739d966e6141832f5d3b771f0d2
+      internalID: -1702023807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 323
+        width: 247
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47fd5412bf26fc43a14871523402a04
+      internalID: -692841922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 211
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda28e6f0dc9bf34a88e43d03fa446eb
+      internalID: 1104621437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 71
+        width: 217
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8363f03e8137c3e49916d33ed3c33c93
+      internalID: 333182776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 69
+        width: 214
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460bdc05f475384c958194fabdd70d6
+      internalID: -1961489073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yetiBangAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 66
+        width: 249
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cb4eabff621bc42acf1132faab6ec0
+      internalID: 1741460340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dac37cb0fb97d9e4b825605353324c1d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      yetiBangAnimation_0: 6715824285301251786
+      yetiBangAnimation_1: -729604925
+      yetiBangAnimation_10: 333182776
+      yetiBangAnimation_11: -1961489073
+      yetiBangAnimation_12: 1741460340
+      yetiBangAnimation_2: -1668154926
+      yetiBangAnimation_3: 980348142
+      yetiBangAnimation_4: 1092697954
+      yetiBangAnimation_5: -2078471422
+      yetiBangAnimation_6: 1061078940
+      yetiBangAnimation_7: -1702023807
+      yetiBangAnimation_8: -692841922
+      yetiBangAnimation_9: 1104621437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

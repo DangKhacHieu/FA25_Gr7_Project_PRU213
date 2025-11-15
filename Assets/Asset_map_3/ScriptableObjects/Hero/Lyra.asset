@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79bababca8036e14ba970685d29c2948, type: 3}
+  m_Name: Lyra
+  m_EditorClassIdentifier: 
+  range: 2.5
+  shootInterval: 1.5
+  projectileSpeed: 4
+  projectileDuration: 3
+  damage: 30
+  targetPriority: 3
+  projectilePrefab: {fileID: 4344080281818276090, guid: 23ce8cc6def5187459c8312aee569b6b, type: 3}
+  shootSound: {fileID: 8300000, guid: 8ddc6ee200041e941807939f453fe6d5, type: 3}
+  cost: 100
+  upgradeCost: 50
+  sprite: {fileID: 8804502482558199723, guid: 1c0d9ffb6c540964c97f7d5ae1583798, type: 3}
+  isMapIceHero: 0
+  iceDamageMultiplier: 1.3
+  iceAttackSpeedMultiplier: 1.25
+  prefab: {fileID: 7360129601125076551, guid: c5685c56513f9c24e9af846afef4c502, type: 3}

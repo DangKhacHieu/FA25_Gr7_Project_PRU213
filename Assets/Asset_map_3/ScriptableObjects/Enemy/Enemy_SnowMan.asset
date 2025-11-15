@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c015880d0eb26540865fd086c6db893, type: 3}
+  m_Name: Enemy_SnowMan
+  m_EditorClassIdentifier: 
+  lives: 125
+  damage: 1
+  speed: 1.3
+  type: 3
+  goldReward: 48
+  isSlowImmune: 0
+  shieldAmount: 0
+  shieldRegenTime: 0
+  deathSound: {fileID: 8300000, guid: 27f4165622fccec4db5e54a7aeadfff3, type: 3}
+  spawnSound: {fileID: 8300000, guid: 35b2cbafc907c3d41aab9002dd5f5a7f, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55ae139cc96e8b409a1bb2f1318b822, type: 3}
+  m_Name: Lyra_Map1
+  m_EditorClassIdentifier: 
+  displayName: Lyra
+  range: 3
+  shootInterval: 0.6
+  projectileSpeed: 12
+  projectileDuration: 0.7
+  damage: 25
+  cost: 140
+  sprite: {fileID: 1337471773142598409, guid: 69a2cadcac8a0a947b8f74705e80b702, type: 3}
+  attackSound: {fileID: 8300000, guid: 8ddc6ee200041e941807939f453fe6d5, type: 3}
+  prefab: {fileID: 6696389232494829423, guid: e959ad043e72a654ca5c1e15fb8163cc, type: 3}

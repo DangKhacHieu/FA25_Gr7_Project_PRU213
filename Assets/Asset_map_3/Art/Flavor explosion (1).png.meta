@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 08d98030603afe742a3d3ce393ca997e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3583353665420415272
+    second: Flavor explosion (1)_0
+  - first:
+      213: -2907154602964265341
+    second: Flavor explosion (1)_1
+  - first:
+      213: -6084911963802232192
+    second: Flavor explosion (1)_2
+  - first:
+      213: -941731438760657397
+    second: Flavor explosion (1)_3
+  - first:
+      213: 3397621800975558583
+    second: Flavor explosion (1)_4
+  - first:
+      213: -812104501376852950
+    second: Flavor explosion (1)_5
+  - first:
+      213: 5897436028272056577
+    second: Flavor explosion (1)_6
+  - first:
+      213: 6033170508816782024
+    second: Flavor explosion (1)_7
+  - first:
+      213: 5363240253732252118
+    second: Flavor explosion (1)_8
+  - first:
+      213: 862260045642730670
+    second: Flavor explosion (1)_9
+  - first:
+      213: 7816771387595642636
+    second: Flavor explosion (1)_10
+  - first:
+      213: 8500406411710691547
+    second: Flavor explosion (1)_11
+  - first:
+      213: 8823136312146164694
+    second: Flavor explosion (1)_12
+  - first:
+      213: -9118694201542879284
+    second: Flavor explosion (1)_13
+  - first:
+      213: -2686215710675343139
+    second: Flavor explosion (1)_14
+  - first:
+      213: 8285518075530282911
+    second: Flavor explosion (1)_15
+  - first:
+      213: 963367520654155356
+    second: Flavor explosion (1)_16
+  - first:
+      213: -5571958780648625562
+    second: Flavor explosion (1)_17
+  - first:
+      213: -6717362850329894423
+    second: Flavor explosion (1)_18
+  - first:
+      213: -9039941196275179577
+    second: Flavor explosion (1)_19
+  - first:
+      213: -2748928087385829401
+    second: Flavor explosion (1)_20
+  - first:
+      213: -1151199414442315293
+    second: Flavor explosion (1)_21
+  - first:
+      213: -7081922853108118661
+    second: Flavor explosion (1)_22
+  - first:
+      213: 7524078434974637114
+    second: Flavor explosion (1)_23
+  - first:
+      213: -5016335959371131587
+    second: Flavor explosion (1)_24
+  - first:
+      213: 6317785142134339995
+    second: Flavor explosion (1)_25
+  - first:
+      213: -8232535584369307011
+    second: Flavor explosion (1)_26
+  - first:
+      213: 4745788806274099465
+    second: Flavor explosion (1)_27
+  - first:
+      213: -2990961436210904245
+    second: Flavor explosion (1)_28
+  - first:
+      213: -2364412969532808749
+    second: Flavor explosion (1)_29
+  - first:
+      213: 7492357996516758939
+    second: Flavor explosion (1)_30
+  - first:
+      213: -7535268351253710753
+    second: Flavor explosion (1)_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flavor explosion (1)_0
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 723
+        width: 296
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8215afb5c21aab130800000000000000
+      internalID: 3583353665420415272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 984
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3865c279a46b7a7d0800000000000000
+      internalID: -2907154602964265341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_2
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 985
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a1b04eecc0e8ba0800000000000000
+      internalID: -6084911963802232192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 986
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e7ad6fe3c4ee2f0800000000000000
+      internalID: -941731438760657397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 986
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b76540d607c62f20800000000000000
+      internalID: 3397621800975558583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 995
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cdfea3243dab4f0800000000000000
+      internalID: -812104501376852950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 722
+        width: 298
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1091fbe52d6e7d150800000000000000
+      internalID: 5897436028272056577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_7
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 723
+        width: 282
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c21367dc902ab350800000000000000
+      internalID: 6033170508816782024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 723
+        width: 276
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d969c8589e0e6a40800000000000000
+      internalID: 5363240253732252118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 724
+        width: 230
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac0c8c61fc57fb00800000000000000
+      internalID: 862260045642730670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 911
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0753187920ca7c60800000000000000
+      internalID: 7816771387595642636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 869
+        width: 149
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8f778289287f570800000000000000
+      internalID: 8500406411710691547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 387
+        width: 297
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db725a9ab3127a70800000000000000
+      internalID: 8823136312146164694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_13
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 650
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc75f95cfe3e37180800000000000000
+      internalID: -9118694201542879284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_14
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 384
+        width: 307
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd86f171b05a8bad0800000000000000
+      internalID: -2686215710675343139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_15
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 646
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f978f088ac21cf270800000000000000
+      internalID: 8285518075530282911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_16
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 380
+        width: 291
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e5db8e7a19e5d00800000000000000
+      internalID: 963367520654155356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_17
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 644
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ae150b20d6ca2b0800000000000000
+      internalID: -5571958780648625562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 380
+        width: 328
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e16ea6e31227c2a0800000000000000
+      internalID: -6717362850329894423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 514
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf199da06dab8280800000000000000
+      internalID: -9039941196275179577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 470
+        width: 146
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef064e0878d9d9d0800000000000000
+      internalID: -2748928087385829401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 298
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1378c5b3e1600f0800000000000000
+      internalID: -1151199414442315293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_22
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 297
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b05cdcfa4f7bd90800000000000000
+      internalID: -7081922853108118661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_23
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 297
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c17dae875ea6860800000000000000
+      internalID: 7524078434974637114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 309
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d355aabc505626ab0800000000000000
+      internalID: -5016335959371131587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 32
+        width: 301
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99782c1d184da750800000000000000
+      internalID: 6317785142134339995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_26
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 31
+        width: 306
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7297ecf08820cd80800000000000000
+      internalID: -8232535584369307011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_27
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 31
+        width: 295
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9092ef866cd6cd140800000000000000
+      internalID: 4745788806274099465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 32
+        width: 311
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43c1c9ab68fd76d0800000000000000
+      internalID: -2990961436210904245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 209
+        width: 138
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1aba07eeaef2fd0800000000000000
+      internalID: -2364412969532808749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 274
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b955070d6e33af760800000000000000
+      internalID: 7492357996516758939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flavor explosion (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 236
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58774cab595d6790800000000000000
+      internalID: -7535268351253710753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flavor explosion (1)_0: 3583353665420415272
+      Flavor explosion (1)_1: -2907154602964265341
+      Flavor explosion (1)_10: 7816771387595642636
+      Flavor explosion (1)_11: 8500406411710691547
+      Flavor explosion (1)_12: 8823136312146164694
+      Flavor explosion (1)_13: -9118694201542879284
+      Flavor explosion (1)_14: -2686215710675343139
+      Flavor explosion (1)_15: 8285518075530282911
+      Flavor explosion (1)_16: 963367520654155356
+      Flavor explosion (1)_17: -5571958780648625562
+      Flavor explosion (1)_18: -6717362850329894423
+      Flavor explosion (1)_19: -9039941196275179577
+      Flavor explosion (1)_2: -6084911963802232192
+      Flavor explosion (1)_20: -2748928087385829401
+      Flavor explosion (1)_21: -1151199414442315293
+      Flavor explosion (1)_22: -7081922853108118661
+      Flavor explosion (1)_23: 7524078434974637114
+      Flavor explosion (1)_24: -5016335959371131587
+      Flavor explosion (1)_25: 6317785142134339995
+      Flavor explosion (1)_26: -8232535584369307011
+      Flavor explosion (1)_27: 4745788806274099465
+      Flavor explosion (1)_28: -2990961436210904245
+      Flavor explosion (1)_29: -2364412969532808749
+      Flavor explosion (1)_3: -941731438760657397
+      Flavor explosion (1)_30: 7492357996516758939
+      Flavor explosion (1)_31: -7535268351253710753
+      Flavor explosion (1)_4: 3397621800975558583
+      Flavor explosion (1)_5: -812104501376852950
+      Flavor explosion (1)_6: 5897436028272056577
+      Flavor explosion (1)_7: 6033170508816782024
+      Flavor explosion (1)_8: 5363240253732252118
+      Flavor explosion (1)_9: 862260045642730670
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

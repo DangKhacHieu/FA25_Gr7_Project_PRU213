@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: a7968366340dd274aa12fa4032c64722
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5448037077208363232
+    second: "Lyra_t\u1EA5n_c\xF4ng_0"
+  - first:
+      213: -2448816228426353847
+    second: "Lyra_t\u1EA5n_c\xF4ng_1"
+  - first:
+      213: -8125248964700429256
+    second: "Lyra_t\u1EA5n_c\xF4ng_2"
+  - first:
+      213: 5965459329788382888
+    second: "Lyra_t\u1EA5n_c\xF4ng_3"
+  - first:
+      213: 2266130471881845200
+    second: "Lyra_t\u1EA5n_c\xF4ng_4"
+  - first:
+      213: 8486470489589513035
+    second: "Lyra_t\u1EA5n_c\xF4ng_5"
+  - first:
+      213: 2920342030765179589
+    second: "Lyra_t\u1EA5n_c\xF4ng_6"
+  - first:
+      213: 6790684208158773133
+    second: "Lyra_t\u1EA5n_c\xF4ng_7"
+  - first:
+      213: 6342556364651245257
+    second: "Lyra_t\u1EA5n_c\xF4ng_8"
+  - first:
+      213: 6377012321766529739
+    second: "Lyra_t\u1EA5n_c\xF4ng_9"
+  - first:
+      213: 8804502482558199723
+    second: "Lyra_t\u1EA5n_c\xF4ng_10"
+  - first:
+      213: -6109434147408450466
+    second: "Lyra_t\u1EA5n_c\xF4ng_11"
+  - first:
+      213: -4852351427369332290
+    second: "Lyra_t\u1EA5n_c\xF4ng_12"
+  - first:
+      213: -2607909822308818197
+    second: "Lyra_t\u1EA5n_c\xF4ng_13"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 370
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_0"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 693
+        width: 156
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e079265bd05b9b40800000000000000
+      internalID: 5448037077208363232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_1"
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 693
+        width: 188
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9437f685d9e040ed0800000000000000
+      internalID: -2448816228426353847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_2"
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 693
+        width: 174
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834ab63bd115d3f80800000000000000
+      internalID: -8125248964700429256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_3"
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 691
+        width: 204
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae831277a199c250800000000000000
+      internalID: 5965459329788382888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_4"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 401
+        width: 156
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9a43f58a9e27f10800000000000000
+      internalID: 2266130471881845200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_5"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 551
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b71d072fff5c570800000000000000
+      internalID: 8486470489589513035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_6"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 551
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2c666ba93278820800000000000000
+      internalID: 2920342030765179589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_7"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 551
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f88290f4b5d3e50800000000000000
+      internalID: 6790684208158773133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_8"
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 551
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce2eeac869450850800000000000000
+      internalID: 6342556364651245257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_9"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 525
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcade277be2bf7850800000000000000
+      internalID: 6377012321766529739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_10"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 130
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba72de01c50ef2a70800000000000000
+      internalID: 8804502482558199723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_11"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 49
+        width: 130
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ce319130ee63ba0800000000000000
+      internalID: -6109434147408450466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_12"
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 49
+        width: 129
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb19a4ee51cf8acb0800000000000000
+      internalID: -4852351427369332290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Lyra_t\u1EA5n_c\xF4ng_13"
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 49
+        width: 210
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2e70b75d7decbd0800000000000000
+      internalID: -2607909822308818197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b6a1358d99f41c146986d125e77d3d68
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Lyra_t\u1EA5n_c\xF4ng_0": 5448037077208363232
+      "Lyra_t\u1EA5n_c\xF4ng_1": -2448816228426353847
+      "Lyra_t\u1EA5n_c\xF4ng_10": 8804502482558199723
+      "Lyra_t\u1EA5n_c\xF4ng_11": -6109434147408450466
+      "Lyra_t\u1EA5n_c\xF4ng_12": -4852351427369332290
+      "Lyra_t\u1EA5n_c\xF4ng_13": -2607909822308818197
+      "Lyra_t\u1EA5n_c\xF4ng_2": -8125248964700429256
+      "Lyra_t\u1EA5n_c\xF4ng_3": 5965459329788382888
+      "Lyra_t\u1EA5n_c\xF4ng_4": 2266130471881845200
+      "Lyra_t\u1EA5n_c\xF4ng_5": 8486470489589513035
+      "Lyra_t\u1EA5n_c\xF4ng_6": 2920342030765179589
+      "Lyra_t\u1EA5n_c\xF4ng_7": 6790684208158773133
+      "Lyra_t\u1EA5n_c\xF4ng_8": 6342556364651245257
+      "Lyra_t\u1EA5n_c\xF4ng_9": 6377012321766529739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

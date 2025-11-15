@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55ae139cc96e8b409a1bb2f1318b822, type: 3}
+  m_Name: Tethys_Map1
+  m_EditorClassIdentifier: 
+  displayName: Tethys
+  range: 4
+  shootInterval: 2
+  projectileSpeed: 9
+  projectileDuration: 1.2
+  damage: 40
+  cost: 180
+  sprite: {fileID: -7385789195546760866, guid: 8d1ea20799ba58048bbdf22132b876b1, type: 3}
+  attackSound: {fileID: 8300000, guid: 8625b4df138472e44a55f96c097f1953, type: 3}
+  prefab: {fileID: 1280225724026514756, guid: 55bec7a05b51b524fbc00d5cf31e10a0, type: 3}

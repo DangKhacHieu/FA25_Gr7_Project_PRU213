@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9151804942421328030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3816450810746273138}
+  - component: {fileID: 5749968239105515569}
+  m_Layer: 0
+  m_Name: EnemyWaveSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3816450810746273138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151804942421328030}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.71, y: 2.51, z: 0.060310364}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5749968239105515569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9151804942421328030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9988a938dc8a54ab5f6e84fd471f39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - waveName: wave 1
+    enemyGroups:
+    - enemyPrefab: {fileID: 209003419295513717, guid: d53a2d554f330f94a884eca9a1cc5bf5, type: 3}
+      count: 10
+      spawnDelay: 2
+      path: 0
+    - enemyPrefab: {fileID: 914703322160911753, guid: eb3ed1aba6f880548b545dfd7c39b166, type: 3}
+      count: 6
+      spawnDelay: 2
+      path: 1
+    reward: 0
+  - waveName: wave 2
+    enemyGroups:
+    - enemyPrefab: {fileID: 1170155525659391328, guid: 15aed19b8e7341f4094e947449e5badd, type: 3}
+      count: 12
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 4327039988643470479, guid: e9c1b4cf77daad346942c695a3e42f54, type: 3}
+      count: 8
+      spawnDelay: 3
+      path: 0
+    reward: 0
+  - waveName: wave 3
+    enemyGroups:
+    - enemyPrefab: {fileID: 4327039988643470479, guid: e9c1b4cf77daad346942c695a3e42f54, type: 3}
+      count: 4
+      spawnDelay: 3
+      path: 0
+    - enemyPrefab: {fileID: 5300794709205918962, guid: ad5728225d2d2544f89650ae0f39b244, type: 3}
+      count: 1
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 209003419295513717, guid: d53a2d554f330f94a884eca9a1cc5bf5, type: 3}
+      count: 6
+      spawnDelay: 3
+      path: 0
+    - enemyPrefab: {fileID: 914703322160911753, guid: eb3ed1aba6f880548b545dfd7c39b166, type: 3}
+      count: 3
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 1170155525659391328, guid: 15aed19b8e7341f4094e947449e5badd, type: 3}
+      count: 5
+      spawnDelay: 3
+      path: 0
+    reward: 0
+  - waveName: wave 4
+    enemyGroups:
+    - enemyPrefab: {fileID: 4327039988643470479, guid: e9c1b4cf77daad346942c695a3e42f54, type: 3}
+      count: 6
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 914703322160911753, guid: eb3ed1aba6f880548b545dfd7c39b166, type: 3}
+      count: 5
+      spawnDelay: 3
+      path: 0
+    - enemyPrefab: {fileID: 209003419295513717, guid: d53a2d554f330f94a884eca9a1cc5bf5, type: 3}
+      count: 12
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 1170155525659391328, guid: 15aed19b8e7341f4094e947449e5badd, type: 3}
+      count: 8
+      spawnDelay: 3
+      path: 0
+    reward: 0
+  - waveName: wave 5
+    enemyGroups:
+    - enemyPrefab: {fileID: 914703322160911753, guid: eb3ed1aba6f880548b545dfd7c39b166, type: 3}
+      count: 5
+      spawnDelay: 3
+      path: 0
+    - enemyPrefab: {fileID: 1170155525659391328, guid: 15aed19b8e7341f4094e947449e5badd, type: 3}
+      count: 6
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 4327039988643470479, guid: e9c1b4cf77daad346942c695a3e42f54, type: 3}
+      count: 6
+      spawnDelay: 3
+      path: 0
+    - enemyPrefab: {fileID: 5300794709205918962, guid: ad5728225d2d2544f89650ae0f39b244, type: 3}
+      count: 1
+      spawnDelay: 3
+      path: 1
+    - enemyPrefab: {fileID: 4327039988643470479, guid: e9c1b4cf77daad346942c695a3e42f54, type: 3}
+      count: 4
+      spawnDelay: 3
+      path: 1
+    reward: 0
+  spawnPointA: {fileID: 0}
+  spawnPointB: {fileID: 0}
+  timeBetweenWaves: 3

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55ae139cc96e8b409a1bb2f1318b822, type: 3}
+  m_Name: Elyra_Map1
+  m_EditorClassIdentifier: 
+  displayName: Elyra
+  range: 4.5
+  shootInterval: 1
+  projectileSpeed: 10
+  projectileDuration: 1
+  damage: 55
+  cost: 300
+  sprite: {fileID: -3194590890968817238, guid: b03125d3a9547a944b423af98cc264c9, type: 3}
+  attackSound: {fileID: 8300000, guid: 11cf14d453aaeff4eb4e013cd7a957c3, type: 3}
+  prefab: {fileID: 9094307911311524803, guid: 1b117ab8a27dd7e4a89313f2154a125d, type: 3}

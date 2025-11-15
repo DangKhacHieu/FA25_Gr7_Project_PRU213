@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79bababca8036e14ba970685d29c2948, type: 3}
+  m_Name: Lorian
+  m_EditorClassIdentifier: 
+  range: 3.5
+  shootInterval: 1
+  projectileSpeed: 5
+  projectileDuration: 3
+  damage: 40
+  targetPriority: 3
+  projectilePrefab: {fileID: 4800190304686853404, guid: 58abec1f6b58c3c42bee11130e782d0e, type: 3}
+  shootSound: {fileID: 8300000, guid: d6f360a92a201fc478ebfcfe6bc5007b, type: 3}
+  cost: 225
+  upgradeCost: 50
+  sprite: {fileID: 4723107735738678597, guid: 2b1df5d15eab60045b7dd3e3356c5237, type: 3}
+  isMapIceHero: 1
+  iceDamageMultiplier: 1.3
+  iceAttackSpeedMultiplier: 1.25
+  prefab: {fileID: 9022180270434574017, guid: 85563210f2d09d542b08b262d0797dbc, type: 3}
